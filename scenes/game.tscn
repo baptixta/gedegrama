@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://wvuiq6bcs3vy"]
+[gd_scene load_steps=5 format=3 uid="uid://wvuiq6bcs3vy"]
 
 [ext_resource type="Texture2D" uid="uid://cfn4elnbxuppp" path="res://sprites/bg.png" id="1_q2w20"]
 [ext_resource type="PackedScene" uid="uid://ciwelvbmm1atu" path="res://scenes/letra.tscn" id="2_q8bi1"]
 [ext_resource type="PackedScene" uid="uid://bkx7uso5frd3k" path="res://scenes/criptograma.tscn" id="2_s7bc5"]
+[ext_resource type="PackedScene" uid="uid://ba8xesa3blw1" path="res://scenes/gap.tscn" id="3_y8bfc"]
 
 [node name="Game" type="Node2D"]
 metadata/_edit_lock_ = true
@@ -25,3 +26,13 @@ offset_left = 505.0
 offset_top = 81.0
 offset_right = 505.0
 offset_bottom = 81.0
+letter = ""
+
+[node name="Gap" parent="." instance=ExtResource("3_y8bfc")]
+position = Vector2(38, 31)
+
+[node name="Gap2" parent="." instance=ExtResource("3_y8bfc")]
+position = Vector2(264, 197)
+
+[node name="Gap3" parent="." instance=ExtResource("3_y8bfc")]
+position = Vector2(100, 352)

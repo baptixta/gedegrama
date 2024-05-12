@@ -13,6 +13,6 @@ script = ExtResource("2_r2vpx")
 position = Vector2(50.5, 50.5)
 shape = SubResource("RectangleShape2D_v1lxv")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite" type="Sprite2D" parent="."]
 texture = ExtResource("3_jtqh4")
 centered = false

@@ -1,0 +1,6 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cd5eiltads1i4"]
+
+[ext_resource type="FontFile" uid="uid://cxbenlbfulr4c" path="res://fonts/SpaceGrotesk-VariableFont_wght.ttf" id="1_mpnnw"]
+
+[resource]
+default_font = ExtResource("1_mpnnw")
